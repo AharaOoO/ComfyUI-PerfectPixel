@@ -20,8 +20,6 @@ A ComfyUI custom node that refines and quantizes messy AI-generated pixel art in
 
 ## 🖼️ Showcase (效果展示)
 
-## 🖼️ Showcase (效果展示)
-
 | Before (AI 生成的伪像素图) | After (Perfect Pixel 提纯后) |
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/35620671-1d56-4288-a4b5-20e8cd1abebf" width="400"> | <img src="https://github.com/user-attachments/assets/e2ae6f14-251b-4ac7-b700-1feb94f3e7f2" width="400"> |
@@ -54,5 +52,6 @@ Core algorithm is created by [theamusing/perfectPixel](https://github.com/theamu
    - **`backend` (运算后端)**: 强烈建议手动选择 **`OpenCV Backend`** 以开启 C++ 底层加速。若环境未安装 OpenCV，可选择 `Lightweight Backend`。
 
 ---
+
 
 
