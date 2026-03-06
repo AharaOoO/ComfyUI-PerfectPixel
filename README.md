@@ -22,11 +22,11 @@ A ComfyUI custom node that refines and quantizes messy AI-generated pixel art in
 
 | Before (AI 生成的伪像素图) | After (Perfect Pixel 提纯后) |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/e2ae6f14-251b-4ac7-b700-1feb94f3e7f2" width="400"> | <img src="https://github.com/user-attachments/assets/35620671-1d56-4288-a4b5-20e8cd1abebf" width="400"> |
-| <img src="https://github.com/user-attachments/assets/1314f1b5-c2de-4509-beba-d34480331ae0" width="400"> | <img src="https://github.com/user-attachments/assets/014d3c40-6df3-4927-a38b-3e3dca4ff16d" width="400"> |
-| <img src="https://github.com/user-attachments/assets/46b66a16-b222-40de-a7b1-c88ab778332d" width="400"> | <img src="https://github.com/user-attachments/assets/661cc39b-249b-43e2-b934-a9f8167a1cbd" width="400"> |
-| <img src="https://github.com/user-attachments/assets/9dcf2f27-8644-4f79-821e-12fce8be2a48" width="400"> | <img src="https://github.com/user-attachments/assets/1efb60b1-4609-4186-a22c-12fce8be2a48" width="400"> |
-| <img src="https://github.com/user-attachments/assets/8a3b0b76-921c-449a-892f-7b515124cb58" width="400"> | <img src="https://github.com/user-attachments/assets/a21d8c6e-59fb-4dfb-9a7f-2e4124ad2d96" width="400"> |
+| <img src="https://github.com/user-attachments/assets/014d3c40-6df3-4927-a38b-3e3dca4ff16d" width="400"> | <img src="https://github.com/user-attachments/assets/35620671-1d56-4288-a4b5-20e8cd1abebf" width="400"> |
+| <img src="https://github.com/user-attachments/assets/661cc39b-249b-43e2-b934-a9f8167a1cbd" width="400"> | <img src="https://github.com/user-attachments/assets/1314f1b5-c2de-4509-beba-d34480331ae0" width="400"> |
+| <img src="https://github.com/user-attachments/assets/1efb60b1-4609-4186-a22c-12f1996a0565" width="400"> | <img src="https://github.com/user-attachments/assets/46b66a16-b222-40de-a7b1-c88ab778332d" width="400"> |
+| <img src="https://github.com/user-attachments/assets/a21d8c6e-59fb-4dfb-9a7f-2e4124ad2d96" width="400"> | <img src="https://github.com/user-attachments/assets/9dcf2f27-8644-4f79-821e-12fce8be2a48" width="400"> |
+| <img src="https://github.com/user-attachments/assets/e2ae6f14-251b-4ac7-b700-1feb94f3e7f2" width="400"> | <img src="https://github.com/user-attachments/assets/8a3b0b76-921c-449a-892f-7b515124cb58" width="400"> |
 
 ## Installation (安装)
 1. 进入 ComfyUI 的 `custom_nodes` 目录。
@@ -52,6 +52,7 @@ Core algorithm is created by [theamusing/perfectPixel](https://github.com/theamu
    - **`backend` (运算后端)**: 强烈建议手动选择 **`OpenCV Backend`** 以开启 C++ 底层加速。若环境未安装 OpenCV，可选择 `Lightweight Backend`。
 
 ---
+
 
 
 
